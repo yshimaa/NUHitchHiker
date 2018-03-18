@@ -1,0 +1,157 @@
+body {
+    background-image: url("81994.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    left: 120px;
+    right: 0;
+    width: 80%;
+    
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family:serif;
+    
+    
+} 
+.logo  
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 80px;
+    text-decoration: none;
+    font-size: 50px;
+    font-family:serif;
+    font-weight: bold;
+    
+} 
+
+li a:hover:not(.active) {
+    background-color: rgb(75, 72, 72);
+}
+
+.active {
+    background-color: rgb(76, 135, 175);
+}
+form{
+    list-style-type: none;
+    margin: 30px;
+    padding: 50px 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 250;
+    text-align: center;
+    width: 100%;
+    left: -70px;
+    right:0;
+}
+.input{
+    font-size: 50px;
+    border-radius: 30px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+span{
+    list-style-type: none;
+    margin: 280px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    font-weight: bold;
+   
+}
+span a {
+    color: black;
+    font-size: 15px;
+}
+
+button{
+    position: relative;
+    overflow: hidden;
+    top: 350px;
+    left: 400px;
+    right:0px; 
+    cursor: pointer; 
+}
+
+.button {
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 8px 20px;
+        background-color:transparent; 
+        color: white; 
+        border: 2px solid  rgb(76, 135, 175);
+        border-radius: 50px;
+        font-size: 50px;
+        overflow: hidden;
+        font-weight: bold;
+
+
+    }
+    .button:hover {
+        background-color: rgb(76, 135, 175);
+        color: black;
+    }
+.p_2{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(76, 135, 175);
+    top: 570px;
+    left: 175px;
+    right: 0;
+}
+.p_1{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    text-align: center;
+    width: 100%; 
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(76, 135, 175);
+    top: 570px;
+    left: -120px;
+    right: 0;
+}
+
+
